@@ -7,7 +7,7 @@
     font-family: "League Spartan", sans-serif;
 }
 html body{
-    font-size: 62,5%;
+    font-size: 62.5%;
     height: 100%;
 }
 body {
@@ -17,6 +17,55 @@ body {
     justify-content: space-between;
     min-height: 100vh;
 }
+.header {
+    width: 60%;
+    line-height: 1.2;
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
 .card {
-    background-color: white;  
+    background-color: white;
+    width: 85%;
+    margin: 10rem auto 0 auto;
+    border-radius: 1.5rem;
+}
+.profile {
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    width: 18rem;
+}
+.container {
+    text-align: center;
+    padding: 10rem 0 2rem 0;
+    line-height: 1.2;
+}
+.name{
+    font-size: 1.5rem;
+}
+.profesion{
+    font-size: 1.8rem;
+
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    line-height: 2;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+
+}
+.custom-icon{
+    font-size: 4rem;
+    margin-right: 1rem;
+}
+.footer {
+    text-align: center;
+    padding: 1rem 0 2rem 0 ;
+    font-size: 1rem;
 }
